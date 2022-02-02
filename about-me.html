@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About me</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="additional.css">
+</head>
+<body>
+<div class="flex-container">
+    <div class="edge">
+        <a></a>
+    </div>
+    <div class="content">
+        <header>
+            <h1 class="page-title" onclick="window.location.href = './'">
+                Rasmus Ilmjärv
+            </h1>
+        </header>
+        <main>
+            <nav>
+                <ul class="navigation-list">
+                    <li><a href="about-me.html" class="nav-item">About</a></li>
+                    <li style="float:right">
+                        <a href="about.asp" class="nav-item">Miski?</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div class="divider"></div>
+                <div class="flex-container-new">
+                    <div class="title text-row"><span>Haridus</span></div>
+                    <div class="text-row">
+                        Tallinna Arte Gümnaasium lõpetatud kuldmedaliga
+                    </div>
+                    <div class="text-row">
+                        3 semestrit IT-süsteemide arendust TalTechis (
+                        <span id="semester">4</span>. semester <span id="is-finished">pooleli</span>)
+                    </div>
+                    <div class="divider"></div>
+                    <div class="title text-row">Tunnen keeli</div>
+                    <div>
+                        <img src="content/images/Python.png" class="lang-logo" aria-valuetext="Python"/>
+                    </div>
+                    <div>
+                        <img src="content/images/java.png" class="lang-logo" aria-valuetext="Java"/>
+                    </div>
+                    <div>
+                        <img src="content/images/C-Sharp.png" class="lang-logo" aria-valuetext="C#"/>
+                    </div>
+                    <div>
+                        <img src="content/images/php.png" class="lang-logo" aria-valuetext="C#"/>
+                    </div>
+                    <div>
+                        <img src="content/images/sql.png" class="lang-logo" aria-valuetext="SQL"/>
+                    </div>
+                    <div id="js-image"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="edge">
+        <a></a>
+    </div>
+</div>
+
+<script src="js/calculateSemester.js"></script>
+
+</body>
+</html>
