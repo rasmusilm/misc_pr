@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    async function fetchText() {
+
+        let myHeaders = new Headers();
+        myHeaders.append("ds", "1645292274,NegEpj,22634e6d899acebf0dd1705e464fdc40");
+        myHeaders.append("x-rpc-app_version", "1.5.0");
+        myHeaders.append("x-rpc-client_type", "4");
+        myHeaders.append("Cookie", "ltoken=g6J7xlISnUMUknF5dCvSrUau7WD06fQ7SvQeMYZF; ltuid=172596992; account_id=144026974; cookie_token=bwsYkObsvRG519b6vuLvubLYEbFU9aGp8POOFhW7; ltoken=rPpBms9KXylXjFJwhCQzwfXrdDCKTFZIegLjdW65; ltuid=144026974");
+
+        let requestOptions = {
+            method: 'GET',
+            headers: myHeaders,
+            mode: 'cors',
+            redirect: 'follow'
+        };
+
+        let response = await fetch("https://bbs-api-os.mihoyo.com/game_record/card/wapi/getGameRecordCard?uid=172596992&gids=2", requestOptions);
+        let data = await response.text();
+        console.log(data);
+    }
+    fetchText()
+
+    // fetch("https://bbs-api-os.mihoyo.com/game_record/card/wapi/getGameRecordCard?uid=172596992&gids=2", requestOptions)
+    //     .then(response => response.text())
+    //     .then(result => console.log(result))
+    //     .catch(error => console.log('error', error));
+</script>
+</body>
+</html>
