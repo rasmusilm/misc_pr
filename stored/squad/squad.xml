@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE squad SYSTEM "squad.dtd">
+<?xml-stylesheet href="squad.xsl?" type="text/xsl"?>
+<squad nick="">
+	<name>test squad</name>
+	<email></email>
+	<web>rasmusilm.github.io</web>
+	<picture>emblem.paa</picture>
+	<title>temp</title>
+	<member id="" nick="Rasmus">
+		<name>Rasmus</name>
+		<email></email>
+		<icq></icq>
+		<remark></remark>
+	</member>
+</squad>
