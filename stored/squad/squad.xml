@@ -3,14 +3,14 @@
 <?xml-stylesheet href="squad.xsl?" type="text/xsl"?>
 <squad nick="">
 	<name>test squad</name>
-	<email></email>
+	<email>email</email>
 	<web>rasmusilm.github.io</web>
 	<picture>emblem.paa</picture>
 	<title>temp</title>
-	<member id="" nick="Rasmus">
+	<member id="76561199088993093" nick="Rasmus">
 		<name>Rasmus</name>
-		<email></email>
+		<email>test</email>
 		<icq></icq>
-		<remark></remark>
+		<remark>t</remark>
 	</member>
 </squad>
